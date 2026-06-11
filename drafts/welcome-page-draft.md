@@ -4,7 +4,7 @@ Yes. When the value-creating asset is portable, it transfers with the person.
 
 No. When the value-creating asset is not portable, paying a premium for outside talent rarely delivers the expected return.
 
-## What this is
+## Research summary
 
 Companies and sports teams both pay premiums to acquire outside talent. NHL free agents. NBA supermax candidates. External executive hires. Lateral hires on Wall Street. The question is the same in every setting. Does the premium deliver the expected performance?
 
