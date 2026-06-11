@@ -56,7 +56,10 @@ The honest framing is this. Most of the research above arrived at the same answe
 
 ## Where to go next
 
-- [Audit](audit.html): What this synthesis can and cannot claim. Honest limitations.
-- [Business research](business-research.html): Each source mapped onto the sports findings in detail.
-- [Citations annex](citations.html): Full bibliography with links to every source.
-- Back to [welcome](welcome.html).
+## Where to go next
+
+- Back to [welcome](index.html).
+- [Key Findings](key-findings.html): Plain-language summary of the four TMG sports studies and the business research synthesis.
+- [Business Research](business-research.html): Each source mapped onto the sports findings in detail.
+- [Citations](citations.html): Full bibliography with links to every source.
+- [Audit](audit.html): What this synthesis can and cannot claim, and verify any claim yourself.
