@@ -125,7 +125,7 @@ Strength of mapping: solid. The 40 percent number is specifically about asset tr
 
 ---
 
-## Practitioner-side numbers
+## Practitioner research
 
 ### Cerulli Associates (2021, 2025): advisor transition costs
 
@@ -157,15 +157,13 @@ The sports findings and the business research are pointing the same direction. T
 
 ---
 
-## Further context
+## Footnote-only citation
 
 One additional peer-reviewed source is cited in the implications page but does not carry analytical weight on the central question of portability.
 
 Bertrand and Mullainathan (2001) found that CEO pay responds to luck (industry and market shocks outside the CEO's control) as much as it responds to skill, and that this is worse in poorly governed firms. The finding is relevant background for the broader claim that talent markets do not cleanly distinguish skill from luck, but it does not directly explain portability. See the [citations annex](citations.html) for the full entry.
 
 ---
-
-## Where to go next
 
 ## Where to go next
 
