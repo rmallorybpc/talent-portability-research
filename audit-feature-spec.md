@@ -19,7 +19,7 @@ Three pieces of behavior:
 
 1. **Persistent checkboxes.** When a reader ticks a checkbox, the state saves to localStorage. On return visit, the boxes are still ticked. A progress counter ("3 of 5 checks complete") updates in real time.
 
-2. **GitHub Issue submission.** When a reader clicks "Report an issue," the page opens GitHub's new issue page in a new tab, pre-filled with a structured template specific to the claim being reported.
+2. **GitHub Issue submission.** When a reader clicks "Report an issue" under a specific check, the page opens GitHub's new issue page in a new tab, pre-filled with a structured template specific to the claim being reported.
 
 3. **Live issue display.** When the audit page loads, it queries the GitHub Issues API for open issues with the `audit-feedback` label and displays them in the "Reader-flagged issues" section. If a claim has been flagged, the list shows the issue title, body excerpt, and link to the full issue.
 
@@ -255,12 +255,12 @@ document.addEventListener("DOMContentLoaded", () => {
 For the issue features to work, the repo needs:
 
 1. Two labels under repo Settings, then Labels:
-   - `audit-feedback`: Used by the five claim-specific "Report an issue with this claim" buttons in the interactive audit section. Description: "Reader-submitted audit verification feedback for a specific claim."
-   - `feedback`: Used by the standalone "Found an error or concern?" callout near the top of the audit page. Description: "General site feedback or issues that do not map to a specific audit check."
+  - `audit-feedback`: Used by the five claim-specific "Report an issue with this claim" buttons in the interactive audit section. Description: "Reader-submitted audit verification feedback for a specific claim."
+  - `feedback`: Used by the standalone "Found an error or concern?" callout near the top of the audit page. Description: "General site feedback or issues that do not map to a specific audit check."
 
-2. The repo must be public. The Issues API endpoint without authentication only works for public repos.
+3. The repo must be public. The Issues API endpoint without authentication only works for public repos.
 
-3. If the repo URL differs from `https://github.com/rmallorybpc/talent-portability-research`, update the REPO_OWNER and REPO_NAME constants in the JavaScript.
+4. If the repo URL differs from `https://github.com/rmallorybpc/talent-portability-research`, update the REPO_OWNER and REPO_NAME constants in the JavaScript.
 
 ## Standalone Report an issue callout
 

@@ -5,6 +5,7 @@
   const REPO_OWNER = 'rmallorybpc';
   const REPO_NAME = 'talent-portability-research';
   const ISSUE_LABEL = 'audit-feedback';
+  const GENERAL_FEEDBACK_LABEL = 'feedback';
 
   const auditItems = [
     {
@@ -217,7 +218,7 @@
     if (submitOtherHeading) {
       const submitParagraph = submitOtherHeading.nextElementSibling;
       if (submitParagraph && submitParagraph.tagName === 'P') {
-        submitParagraph.innerHTML = "If you have feedback outside the five checks above, <a href='https://github.com/" + REPO_OWNER + "/" + REPO_NAME + "/issues/new?title=Audit%20feedback%3A%20general%20concern&labels=" + ISSUE_LABEL + "' target='_blank' rel='noopener noreferrer'>open a general feedback issue</a>. All feedback is public and helps the synthesis stay accurate over time.";
+        submitParagraph.innerHTML = "If you have feedback outside the five checks above, <a href='https://github.com/" + REPO_OWNER + "/" + REPO_NAME + "/issues/new?title=Audit%20feedback%3A%20general%20concern&labels=" + GENERAL_FEEDBACK_LABEL + "' target='_blank' rel='noopener noreferrer'>open a general feedback issue</a>. All feedback is public and helps the synthesis stay accurate over time.";
       }
     }
 
