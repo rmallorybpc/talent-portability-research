@@ -32,7 +32,7 @@ Manage team moves explicitly through the four lift-out stages. Groysberg and Abr
 
 Recognize the buyer-side blind spot. Roll and Boivie, Gee, Gentry, and Graffin together describe a recurring failure mode in hiring decisions. The buyer overestimates their own valuation, and experience does not correct this. The practical implication is that external hire decisions need a structured check against the alternative path. Could this role be filled internally? Could it be left unfilled? Could it be filled in three years instead of three months? Asking those questions before paying the premium is the antidote, not gut feeling sharpened by past experience.
 
-## How to structure work so performance is partly portable on purpose
+## Designing for portability
 
 Most of this synthesis treats portability as a problem for buyers. There is a flip side. Sometimes you want portable performance on purpose. For an individual building a career, portability is leverage. For a firm hiring in roles where relationships matter (sales, advisory, client-facing work), the portability of the asset is a feature, not a bug.
 
