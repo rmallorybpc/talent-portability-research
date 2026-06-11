@@ -46,15 +46,13 @@ Pay design is secondary to work design. Berry-Stolzle and Eckles found that the 
 
 Governance trade-offs. Gurun, Stoffman, and Yonker found that once clients become portable (the 2004 Protocol for Broker Recruiting, commonly called the Broker Protocol, unlocked client relationships across many firms), the firms holding those advisors became less willing to fire them for misconduct. Subsequent misconduct rose. Subsequent fees rose. Portability is not free. It shifts power toward the individual and creates governance challenges the firm did not have when the relationship was locked. Anyone designing for portability on purpose should plan for these trade-offs explicitly.
 
-## Soft close
+## Want help applying these findings?
 
-This page does not name a service offer. The Mallory Group is happy to talk through how these findings apply to a specific hiring decision, a compensation redesign, or a talent acquisition strategy. The synthesis is one conversation away from a real decision in your firm.
+The Mallory Group works with organizations on hiring decisions, compensation design, and talent acquisition strategy. If the patterns in this synthesis match what you are seeing in your own organization, the next step is a conversation about which lever to pull.
 
-The honest framing is this. Most of the research above arrived at the same answer in different domains: buyers overpay for outside talent, the buyers do not learn over time, and the conditions under which paying for outside talent works are narrow and identifiable. The TMG sports research found the same pattern. If that pattern matches what you are seeing in your own organization, the next conversation is about which lever to pull.
+Most of the research above arrived at the same answer in different domains: buyers overpay for outside talent, the buyers do not learn over time, and the conditions under which paying for outside talent works are narrow and identifiable. The TMG sports research found the same pattern. If you want to talk through how those conditions apply to a specific decision you are facing, get in touch.
 
 ---
-
-## Where to go next
 
 ## Where to go next
 
