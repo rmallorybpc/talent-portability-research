@@ -1,5 +1,5 @@
 # Citation annex
-## Money as signal: business research bridge
+## Does paying for talent work?
 
 Reference document for the synthesis piece that connects The Mallory Group's four sports research studies (NHL Free Agency Research, NBA Analysis, NFL Analysis, and NHL Play for Contract) to the business literature on talent acquisition and performance portability.
 
