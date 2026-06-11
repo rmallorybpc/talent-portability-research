@@ -12,7 +12,7 @@ The Mallory Group has now published research on this question across three sport
 
 The short version: the buyer side of the talent market consistently overpays, and the conditions under which paying for outside talent works are narrow and identifiable.
 
-## How to use this site
+## Pages on this site
 
 - [Key Findings](key-findings.html): Plain-language summary of the four TMG sports studies, the business research, and the synthesis.
 - [Business Research](business-research.html): Each of the six peer-reviewed mapped sources and one industry source, mapped onto the sports findings.
