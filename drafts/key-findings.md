@@ -46,7 +46,7 @@ Boivie, Gee, Gentry, and Graffin (2025) sharpen the mechanism. Studying S&P 1500
 
 This is the mechanism. Front offices and HR departments share the same buyer-side blind spot, and repeated practice does not fix it.
 
-## What about portable assets?
+## When talent does transfer
 
 Two peer-reviewed sources test Groysberg's exception. Both find that performance transfers more readily when the value-creating asset is portable.
 
