@@ -44,7 +44,7 @@ No new data was collected for this synthesis. See [METHODS.md](./METHODS.md) for
 See [citations.html](./citations.html) for full bibliography. Primary sources:
 
 1. Groysberg, B., Lee, L.-E., and Nanda, A. (2008). Superstar extinction. *American Economic Review*, 98(3).
-2. Berk, J. B. and Green, R. C. (2004). Mutual fund flows and performance in rational markets. *Journal of Finance*, 112(6).
+2. Berk, J. B. and Green, R. C. (2004). Mutual fund flows and performance in rational markets. *Journal of Finance*, 59(3).
 3. Hoisl, K. and Mariani, M. (2017). Human capital portability and individual performance. *Strategic Management Journal*, 38(12).
 4. Lazear, E. P. and Rosen, S. (1981). Rank-order tournaments as optimum labor contracts. *Journal of Political Economy*, 89(5).
 5. Lucifora, C. and Simmons, R. (2003). Superstar effects in sport. *Journal of Labor Economics*, 21(2).
