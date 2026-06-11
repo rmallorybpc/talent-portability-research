@@ -167,7 +167,10 @@ Bertrand and Mullainathan (2001) found that CEO pay responds to luck (industry a
 
 ## Where to go next
 
-- [Audit](audit.html): What this synthesis can and cannot claim. Honest limitations of the seven-source mapping.
+## Where to go next
+
+- Back to [welcome](index.html).
+- [Key Findings](key-findings.html): Plain-language summary of the four TMG sports studies and the business research synthesis.
 - [Implications](implications.html): What this means for hiring, managing stars, and structuring work.
-- [Citations annex](citations.html): Full bibliography with links to every source.
-- Back to [welcome](welcome.html).
+- [Citations](citations.html): Full bibliography with links to every source.
+- [Audit](audit.html): What this synthesis can and cannot claim, and verify any claim yourself.
