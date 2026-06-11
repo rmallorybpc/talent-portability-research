@@ -19,50 +19,50 @@ Verification note: These repo URLs are inferred from the GitHub Pages URLs and a
 ```
 talent-portability-research/
 ├── README.md
-├── index.html                  → renamed from welcome.html or used as landing page
-├── welcome.html                → the synthesis page (main thesis)
+├── index.html                  → welcome page (landing page)
+├── welcome.html                → alias for index.html (drafts reference welcome.html)
+├── key-findings.html           → plain-language research summary
 ├── business-research.html      → seven sources mapped onto sports findings
-├── audit.html                  → honest review of claims and limitations
 ├── implications.html           → what this means for HR and comp design
 ├── citations.html              → full bibliography (converted from citation-annex.md)
+├── audit.html                  → honest review of claims and limitations, plus interactive verification
 ├── METHODS.md                  → at root, linked from welcome and audit pages
 ├── assets/
 │   ├── css/
 │   │   └── style.css           → match TMG style from NHL or NBA repo
 │   ├── js/
-│   │   └── nav.js              → if existing repos use a nav include
+│   │   ├── nav.js              → if existing repos use a nav include
+│   │   └── audit.js            → interactive audit feature behavior
 │   └── images/                 → empty for now; add figures during drafting
 └── .github/
     └── workflows/
         └── pages.yml           → only if existing repos use a GitHub Actions deploy
 ```
 
-Note: The NHL repo uses `welcome.html` as the landing page and `index.html` for the data explorer. The NBA repo uses standard conventions. This site has no data tool, so the simplest convention is:
-- `index.html` is the welcome / synthesis page
-- All other content pages are named by topic
-
-Alternatively, mirror the NHL convention exactly by using `welcome.html` as the landing page. Pick whichever matches the existing pattern Copilot finds when it scans the reference repos.
+Note: The site uses `index.html` as the canonical landing page. `welcome.html` exists as an alias because some drafts reference `welcome.html` directly.
 
 ## Page roles
 
 | File | Role |
 |---|---|
-| `index.html` or `welcome.html` | Synthesis: the headline question, the short answer, the sports findings, the business research, the spectrum, soft close to implications |
-| `business-research.html` | Source-by-source treatment. For each of the seven sources (six peer-reviewed and one industry research), state what it found, how it was reviewed, and how it maps to the TMG sports findings |
-| `audit.html` | Honest self-audit. What this piece can claim, what it cannot, where the analogy weakens, which sources carry the most weight |
-| `implications.html` | Translation to HR, compensation design, and executive decision making. Soft close to conversation, no specific service named |
-| `citations.html` | Full bibliography from `citation-annex.md`, with working links and review notes for each source |
+| `index.html` (`welcome.html`) | Welcome page. Headline question, short Yes/No answer, brief framing of what the site is, and navigation to the other pages. Should be short and scannable. |
+| `key-findings.html` | Plain-language research summary. The four TMG sports studies in two pairs, the business research grouped by what it shows, the portability spectrum, and the synthesis claim. The reader who wants the substance reads this page. |
+| `business-research.html` | Source-by-source treatment. For each of the seven sources (six peer-reviewed and one industry research), state what it found, how it was reviewed, and how it maps to the TMG sports findings. |
+| `implications.html` | Translation to HR, compensation design, and executive decision making. Soft close to conversation, no specific service named. |
+| `citations.html` | Full bibliography from `citation-annex.md`, with working links and review notes for each source. |
+| `audit.html` | Honest self-audit. What this piece can claim, what it cannot, the corrections record, and an interactive verification feature where readers can check claims and submit GitHub issues. |
 
 ## Navigation
 
-Top nav on every page should include:
-- TMG (home link to the index/welcome page)
-- Welcome
-- Business research
-- Audit
-- Implications
-- Citations
-- (Optional) link to GitHub source
+Top nav on every page should include the following items in this order:
+
+1. Welcome (home link to `index.html`)
+2. Key Findings (`key-findings.html`)
+3. Business Research (`business-research.html`)
+4. Implications (`implications.html`)
+5. Citations (`citations.html`)
+6. Audit (`audit.html`)
+7. GitHub (link to repo: `https://github.com/rmallorybpc/talent-portability-research`)
 
 Match the nav bar style from the existing TMG sites. The footer should include the standard "TMG Tool Suite" links to the other TMG research sites.
 
@@ -81,8 +81,8 @@ All page content will be drafted in markdown first by the user. Each markdown fi
 ## Inter-page linking convention
 
 Use relative links between pages:
-- `welcome.html` → `business-research.html`, `audit.html`, `implications.html`, `citations.html`
-- Same for all other pages back to welcome
+- `index.html` (welcome) links to all other pages.
+- Every other page has a "Where to go next" section at the bottom linking back to welcome and to the other pages in the navigation order.
 
 External links go to the live source pages (Princeton, JSTOR, Oxford Academic, Springer, ScienceDirect, Cerulli).
 
@@ -98,6 +98,14 @@ The README should include:
 
 ## What to ask Copilot
 
-Suggested prompt for Copilot:
+Suggested prompt for an update pass after this site has been initially scaffolded:
 
-> Scaffold a GitHub Pages research site repo following the structure and visual style of these two existing repos: https://github.com/rmallorybpc/nhl-free-agency-research and https://github.com/rmallorybpc/nba-research-project. The new repo is named `talent-portability-research`. It has five pages: index/welcome, business-research, audit, implications, and citations. Use the file structure documented in `repo-structure.md` (this file). All page content will be provided as markdown files; convert each to an HTML page that matches the visual template of the reference repos. Set up GitHub Pages deployment using the same workflow as the reference repos.
+> The site structure has changed. Please update the navigation order and add a new page.
+>
+> New page: `key-findings.html`, converted from `drafts/key-findings-page-draft.md`. This is the plain-language research summary that previously lived inside the welcome page.
+>
+> Updated welcome page: `drafts/welcome-page-draft.md` is now shorter. Regenerate `index.html` (and `welcome.html` alias) from the updated draft.
+>
+> Updated navigation order across all pages: Welcome, Key Findings, Business Research, Implications, Citations, Audit, GitHub (external repo link).
+>
+> Updated "Where to go next" sections at the bottom of each non-welcome page are in the updated drafts. Use those as the source of truth.
