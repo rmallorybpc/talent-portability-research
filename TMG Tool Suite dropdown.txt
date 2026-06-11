@@ -1,0 +1,39 @@
+Standardize the TMG Tool Suite dropdown across this repository to match the canonical TMG list exactly.
+
+Goal:
+Every TMG Tool Suite dropdown instance in this repo must contain exactly the canonical options below, in this exact order, with no missing or duplicate items.
+
+Canonical dropdown options (label | URL):
+1. PDF Multi-Agent Analysis | https://rmallorybpc.github.io/pdf-multi-agent-analysis/
+2. Housing Market Intel | https://rmallorybpc.github.io/housing-market-intel/
+3. Real Estate Report | https://rmallorybpc.github.io/real-estate-report/
+4. NFL Analysis | https://rmallorybpc.github.io/nflanalysis/dashboard/src/
+5. Recipe Book | https://rmallorybpc.github.io/recipes/
+6. NHL Free Agency Research | https://rmallorybpc.github.io/nhl-free-agency-research/
+7. NHL Play for Contract | https://rmallorybpc.github.io/nhl-play-for-contract/
+8. Content Integrity | https://content-integrity-audit.pages.dev/
+9. NBA Supermax Research | https://rmallorybpc.github.io/nba-research-project/
+
+Implementation requirements:
+1. Find all files/components/templates/partials that render the TMG Tool Suite dropdown.
+2. If a shared nav source exists, edit only that source; otherwise update each duplicated instance.
+3. Replace each dropdown’s option list so it matches the canonical list exactly.
+4. Preserve existing repo styling and structure:
+   - Keep existing classes, wrappers, IDs, and ARIA attributes.
+   - Keep existing external link attribute conventions already used in the repo (for example target, rel, role).
+5. Prevent duplicates by enforcing one entry per canonical URL.
+6. Keep changes scoped to dropdown/nav content only.
+
+Verification requirements:
+1. Confirm every dropdown instance contains all 9 canonical items in exact order.
+2. Confirm no extra non-canonical items remain in any dropdown.
+3. Confirm no duplicate labels or URLs.
+4. Provide a concise change report with:
+   - Files changed
+   - Dropdown instances standardized
+   - Items added/removed per instance (if applicable)
+
+If no TMG Tool Suite dropdown exists in the repo:
+1. Report that explicitly.
+2. List candidate nav files where it could be added.
+3. Do not invent a new layout unless asked.
