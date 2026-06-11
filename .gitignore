@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Build artifacts
+_site/
+dist/
+node_modules/
+
+# Drafts (working files; remove once HTML is built)
+drafts/
