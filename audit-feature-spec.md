@@ -252,13 +252,29 @@ document.addEventListener("DOMContentLoaded", () => {
 
 ## GitHub repo setup
 
-For the issue feature to work, the repo needs:
+For the issue features to work, the repo needs:
 
-1. A label called `audit-feedback`. Create it under repo Settings, then Labels. Suggested color: any neutral color like gray or yellow. Description: "Reader-submitted audit verification feedback."
+1. Two labels under repo Settings, then Labels:
+   - `audit-feedback`: Used by the five claim-specific "Report an issue with this claim" buttons in the interactive audit section. Description: "Reader-submitted audit verification feedback for a specific claim."
+   - `feedback`: Used by the standalone "Found an error or concern?" callout near the top of the audit page. Description: "General site feedback or issues that do not map to a specific audit check."
 
 2. The repo must be public. The Issues API endpoint without authentication only works for public repos.
 
 3. If the repo URL differs from `https://github.com/rmallorybpc/talent-portability-research`, update the REPO_OWNER and REPO_NAME constants in the JavaScript.
+
+## Standalone Report an issue callout
+
+In addition to the five claim-specific issue submission buttons in the interactive audit section, the audit page has a standalone callout near the top of the page that lets readers report general issues that do not map to one of the five checks.
+
+The callout is rendered from a markdown blockquote in the audit page draft and looks like this in the markdown source:
+
+```
+> **Found an error or concern with anything on this site?** Issues are tracked publicly on GitHub. [Open an issue.](https://github.com/rmallorybpc/talent-portability-research/issues/new?labels=feedback&title=Site%20feedback)
+```
+
+Style note for the callout: it should be visually distinct from the body text (a quote style, a tinted background, or a bordered block) but should not dominate the page. It is one of several elements on the audit page, not the headline.
+
+The standalone callout is on the audit page only. Other pages do not have a "Report an issue" link in the footer or anywhere else. The site logic is that a reader who finds something worth flagging navigates to the audit page, where verification and issue submission live together.
 
 ## Style notes
 
