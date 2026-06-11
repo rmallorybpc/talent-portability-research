@@ -132,6 +132,104 @@
     });
   }
 
+  function isCheckHeading(text) {
+    return /^Check\s+[1-5]\./.test((text || '').trim());
+  }
+
+  function initDraftAuditExperience() {
+    const draftRoot = document.getElementById('page-markdown');
+    if (!draftRoot || document.querySelector('.audit-item')) {
+      return;
+    }
+
+    const draftCheckboxes = Array.from(draftRoot.querySelectorAll("input[type='checkbox'][disabled]")).slice(0, auditItems.length);
+    draftCheckboxes.forEach(function (box, index) {
+      const item = auditItems[index];
+      if (!item) {
+        return;
+      }
+
+      box.removeAttribute('disabled');
+      box.dataset.auditId = item.id;
+
+      const list = box.closest('ul');
+      if (!list) {
+        return;
+      }
+
+      const button = document.createElement('a');
+      button.className = 'report-issue-button tmg-btn-ghost';
+      button.href = buildIssueUrl(item);
+      button.target = '_blank';
+      button.rel = 'noopener noreferrer';
+      button.textContent = 'Report an issue with this claim';
+      list.insertAdjacentElement('afterend', button);
+
+      const maybePlaceholder = button.nextElementSibling;
+      if (maybePlaceholder && maybePlaceholder.tagName === 'P' && /\[Report an issue/i.test(maybePlaceholder.textContent || '')) {
+        maybePlaceholder.remove();
+      }
+    });
+
+    const h3s = Array.from(draftRoot.querySelectorAll('h3'));
+    const progressHeading = h3s.find(function (h) {
+      return (h.textContent || '').trim() === 'Your audit progress';
+    });
+
+    if (progressHeading) {
+      const progressBlock = document.createElement('div');
+      progressBlock.className = 'audit-progress';
+      progressBlock.setAttribute('aria-live', 'polite');
+      progressBlock.innerHTML =
+        '<p>Progress: <span id="audit-progress-count">0</span> of 5 checks complete.</p>' +
+        '<div class="audit-progress-bar" aria-hidden="true"><div class="audit-progress-fill" id="audit-progress-fill"></div></div>';
+
+      progressHeading.insertAdjacentElement('afterend', progressBlock);
+
+      const oldProgressText = progressBlock.nextElementSibling;
+      if (oldProgressText && oldProgressText.tagName === 'P' && /Progress:\s*0\s*of\s*5/i.test(oldProgressText.textContent || '')) {
+        oldProgressText.remove();
+      }
+    }
+
+    const issuesHeading = h3s.find(function (h) {
+      return (h.textContent || '').trim() === 'Reader-flagged issues';
+    });
+
+    if (issuesHeading && !document.getElementById('reader-flagged-issues')) {
+      const issuesContainer = document.createElement('div');
+      issuesContainer.id = 'reader-flagged-issues';
+      issuesContainer.innerHTML = '<p>Loading open audit issues...</p>';
+      issuesHeading.insertAdjacentElement('afterend', issuesContainer);
+
+      let cursor = issuesContainer.nextElementSibling;
+      while (cursor && cursor.tagName === 'P' && /Live list populated by JavaScript|The list below pulls open audit issues/i.test(cursor.textContent || '')) {
+        const removeTarget = cursor;
+        cursor = cursor.nextElementSibling;
+        removeTarget.remove();
+      }
+    }
+
+    const submitOtherHeading = h3s.find(function (h) {
+      return (h.textContent || '').trim() === 'Submit other feedback';
+    });
+
+    if (submitOtherHeading) {
+      const submitParagraph = submitOtherHeading.nextElementSibling;
+      if (submitParagraph && submitParagraph.tagName === 'P') {
+        submitParagraph.innerHTML = "If you have feedback outside the five checks above, <a href='https://github.com/" + REPO_OWNER + "/" + REPO_NAME + "/issues/new?title=Audit%20feedback%3A%20general%20concern&labels=" + ISSUE_LABEL + "' target='_blank' rel='noopener noreferrer'>open a general feedback issue</a>. All feedback is public and helps the synthesis stay accurate over time.";
+      }
+    }
+
+    const checkHeadings = h3s.filter(function (h) {
+      return isCheckHeading(h.textContent || '');
+    });
+
+    checkHeadings.forEach(function (h) {
+      h.classList.add('audit-check-heading');
+    });
+  }
+
   function escapeHtml(str) {
     const div = document.createElement('div');
     div.textContent = str || '';
@@ -182,6 +280,7 @@
   }
 
   document.addEventListener('DOMContentLoaded', function () {
+    initDraftAuditExperience();
     initCheckboxes();
     initIssueButtons();
     loadReaderFlaggedIssues();

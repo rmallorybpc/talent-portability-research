@@ -248,7 +248,85 @@ body {
 .tmg-table tr:hover td      { background: rgba(132,169,140,0.04); }
 
 
-/* ── 9. Audit feature ─────────────────────────────────────── */
+/* ── 9. Markdown content ──────────────────────────────────── */
+.tmg-markdown > :first-child { margin-top: 0; }
+.tmg-markdown > :last-child { margin-bottom: 0; }
+
+.tmg-markdown h1,
+.tmg-markdown h2,
+.tmg-markdown h3 {
+  color: var(--tmg-charcoal);
+  line-height: 1.35;
+}
+
+.tmg-markdown h1 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0 0 14px;
+}
+
+.tmg-markdown h2 {
+  font-size: 21px;
+  font-weight: 500;
+  margin: 24px 0 10px;
+}
+
+.tmg-markdown h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 18px 0 8px;
+}
+
+.tmg-markdown p,
+.tmg-markdown li {
+  color: var(--tmg-charcoal);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.tmg-markdown p { margin: 0 0 12px; }
+
+.tmg-markdown ul,
+.tmg-markdown ol {
+  margin: 0 0 14px;
+  padding-left: 22px;
+}
+
+.tmg-markdown li { margin-bottom: 8px; }
+
+.tmg-markdown hr {
+  border: 0;
+  border-top: var(--tmg-border);
+  margin: 20px 0;
+}
+
+.tmg-markdown a {
+  color: var(--tmg-sage-hover);
+}
+
+.tmg-markdown table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  margin: 6px 0 14px;
+}
+
+.tmg-markdown th {
+  background: rgba(132,169,140,0.15);
+  color: var(--tmg-charcoal);
+  font-weight: 500;
+  padding: 9px 14px;
+  text-align: left;
+  border-bottom: 1px solid rgba(132,169,140,0.25);
+}
+
+.tmg-markdown td {
+  padding: 9px 14px;
+  border-bottom: 1px solid rgba(45,52,54,0.07);
+}
+
+
+/* ── 10. Audit feature ────────────────────────────────────── */
 .audit-verify {
   border-top: 4px solid rgba(132,169,140,0.45);
 }
@@ -330,7 +408,7 @@ body {
 }
 
 
-/* ── 10. Responsive ────────────────────────────────────────── */
+/* ── 11. Responsive ───────────────────────────────────────── */
 @media (max-width: 768px) {
   .tmg-nav {
     flex-wrap: wrap;
