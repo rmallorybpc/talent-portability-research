@@ -40,7 +40,7 @@ This synthesis cannot claim causation. Most of the TMG sports findings are corre
 
 This synthesis cannot rule out effort as a mechanism. The piece argues that performance is contextual: stars decline because they lose their firm's resources, system, and colleagues. An alternative explanation is that stars coast after a big payday. The available research does not isolate effort as a separate mechanism cleanly. A football study found a small but statistically significant effort reduction after players signed follow-up contracts with new clubs, but no equivalent study exists for business stars. Groysberg explicitly attributes the analyst decline to lost firm-specific resources, but his data does not separate effort from context. The honest claim is that performance is contextual. The honest non-claim is that effort is unchanged.
 
-This synthesis cannot generalize across all industries. Insurance and financial advisors are different industries from athletic performance and equity research. The portability spectrum is an honest framing across populations, but the comparison is across different things. Time on ice per cap share is not the same metric as client assets retained. The reader should treat the spectrum as a conceptual organizing tool, not as a single quantitative scale.
+This synthesis cannot generalize across all industries. Insurance and financial advisors are different industries from athletic performance and equity research. The portability spectrum frames across populations, but the comparison crosses industries and structures. Time on ice per cap share is not the same metric as client assets retained. The reader should treat the spectrum as a conceptual organizing tool, not as a single quantitative scale.
 
 This synthesis cannot claim that buying outside talent never works. The portability counterpoint exists for a reason. The piece argues that paying for outside talent rarely delivers the expected return when the asset is firm-specific or contextual. It does not argue that all external acquisitions fail. The implications page treats this carefully.
 
@@ -64,9 +64,9 @@ A seven-by-one table of how directly each business research source maps to the T
 
 The pattern across the seven rows: three strong mappings (Groysberg, Bidwell, Boivie et al.), one medium mechanism-level support (Roll), two medium portability counterpoints (Berry-Stolzle, Gurun), and one weak industry corroboration (Cerulli). Bertrand and Mullainathan (2001) is cited as a footnote and does not carry mapping weight.
 
-## Open questions and further reading
+## Further reading and open questions
 
-Two sources came up during the research that did not make the final source list but are worth investigating later.
+Three sources came up during the research that did not make the final source list but are worth investigating later.
 
 Kim, H. and Low, A. (2026). Who hires whom? Connected hiring in the CEO labor market. *Journal of Empirical Finance,* 87, 101696. This paper studies CEOs hired by board members they already know. It tests a related but different question from the one this synthesis asks: whether incoming connections affect hire selection, rather than whether outgoing colleagues affect post-move performance. Worth pulling for a future expansion.
 
@@ -78,7 +78,7 @@ One open question raised during drafting also belongs here.
 
 The persistent decision-maker question. The cited research identifies that buyers overpay (Roll), that experience does not correct this (Boivie, Gee, Gentry, and Graffin), and that pay decisions are worse when principal oversight is weak (Bertrand and Mullainathan). None of these papers isolates the specific dynamic where executors of bad hiring decisions (talent acquisition, HR, general managers in sports) get replaced while the persistent decision-makers who set the culture (boards, founders, owners) keep their seats and continue making the same decisions through new executors. This is a logical next step from the existing research but not directly studied in the sources used here. If this direction is added to a future piece, the Bertrand and Mullainathan (2001) source should be reassessed. It is currently a footnote-only citation. The "without principals" framing in the original paper's title is directly relevant to the persistent decision-maker question, and the source would likely deserve featured placement rather than footnote placement if the question becomes central.
 
-## Honest summary
+## Summary
 
 This synthesis is a connection piece, not new empirical research. It is as strong as the sources allow and no stronger. The convergence between the TMG sports findings and the business research is the value the piece offers. The limits are documented above so a reader can decide how much weight to put on each claim. The strongest claims are the buyer-side overpayment pattern and the contextual nature of star performance. The weakest claims are anything that requires inferring effort, causation, or where lost assets go. The synthesis avoids those.
 
@@ -182,8 +182,6 @@ The list below pulls open audit issues from GitHub in real time. If a claim has 
 If you have feedback outside the five checks above, [open a general feedback issue](link to GitHub issue creation). All feedback is public and helps the synthesis stay accurate over time.
 
 ---
-
-## Where to go next
 
 ## Where to go next
 
