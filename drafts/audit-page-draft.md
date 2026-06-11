@@ -4,6 +4,8 @@ This synthesis ties together four TMG sports studies and seven business research
 
 The Mallory Group audits its own work as a standard, and applies that standard more carefully when the work depends on citing other people's research. This page is the result.
 
+> **Found an error or concern with anything on this site?** Issues are tracked publicly on GitHub. [Open an issue.](https://github.com/rmallorybpc/talent-portability-research/issues/new?labels=feedback&title=Site%20feedback)
+
 ## What this synthesis can claim
 
 These claims are directly supported by the cited sources, stated conservatively.
