@@ -183,7 +183,10 @@ If you have feedback outside the five checks above, [open a general feedback iss
 
 ## Where to go next
 
+## Where to go next
+
+- Back to [welcome](index.html).
+- [Key Findings](key-findings.html): Plain-language summary of the four TMG sports studies and the business research synthesis.
+- [Business Research](business-research.html): Each source mapped onto the sports findings in detail.
 - [Implications](implications.html): What this means for hiring, managing stars, and structuring work.
-- [Citations annex](citations.html): Full bibliography with links to every source.
-- [Business research](business-research.html): Each source mapped onto the sports findings in detail.
-- Back to [welcome](welcome.html).
+- [Citations](citations.html): Full bibliography with links to every source.
