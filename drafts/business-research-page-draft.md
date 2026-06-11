@@ -4,7 +4,7 @@ Seven sources address the same question The Mallory Group's four sports studies 
 
 The honest answer the synthesis returns: paying for outside talent works sometimes. It depends on what asset you are paying for and whether that asset actually transfers.
 
-## How to read this page
+## How the business research is organized
 
 Each source below has four parts:
 
