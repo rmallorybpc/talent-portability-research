@@ -1,62 +1,65 @@
-# talent-portability-research
+# Talent Portability Research
 
 **Does paying for talent work?**
 
-A synthesis research site by [The Mallory Group](https://github.com/rmallorybpc).
+A synthesis research site by The Mallory Group.
 
-**Live site:** [rmallorybpc.github.io/talent-portability-research](https://rmallorybpc.github.io/talent-portability-research/)
-
----
+Live site: [rmallorybpc.github.io/talent-portability-research](https://rmallorybpc.github.io/talent-portability-research)
 
 ## Summary
 
-Paying more for talent is positively correlated with outcomes at the high end of the talent distribution, but the relationship is neither linear nor universal. The returns to premium compensation are real, concentrated at the very top of the skill distribution, and frequently overestimated by the organizations doing the paying.
+Yes. When the value-creating asset is portable, it transfers with the person.
 
-Two TMG sports research projects, the [NHL Free Agency Research](https://rmallorybpc.github.io/nhl-free-agency-research/) and the [NBA Supermax Research](https://rmallorybpc.github.io/nba-research-project/), provide the structural frame. Seven peer-reviewed and industry sources from the business and economics literature confirm the pattern in non-sports contexts.
+No. When the value-creating asset is not portable, paying a premium for outside talent rarely delivers the expected return.
 
-The core practical implication: before paying a premium for talent, determine what share of that talent will actually arrive. Much of what looks like individual performance is a joint product of the person and their context. That context does not transfer on hire.
-
----
+This site connects four TMG sports research projects (NHL Free Agency Research, NFL Analysis, NBA Analysis, and NHL Play for Contract) to seven sources from the business and economics literature. The buyer side of the talent market consistently overpays, the conditions under which paying for outside talent works are narrow and identifiable, and the convergence of sports data and business research is the synthesis the site offers.
 
 ## Methodology note
 
-This is a synthesis piece, not new empirical research. All cited findings come from the seven sources in the [citations annex](./citations.html): six peer-reviewed journal articles and one industry research report. The sports analytics findings are cited from two existing TMG research projects and are used as a structuring lens, not as causal proof.
+This is a synthesis piece, not new empirical research. All cited findings come from sources documented in the citations annex: six peer-reviewed academic sources, one industry research source, and one peer-reviewed footnote citation. The four TMG sports research projects are cited as existing work and used as a structuring lens, not as causal proof.
 
-No new data was collected for this synthesis. See [METHODS.md](./METHODS.md) for the full source evaluation protocol.
-
----
+No new data was collected for this synthesis. See `audit.html` for the full self-audit, including what the synthesis can and cannot claim.
 
 ## Site structure
 
 | Page | Role |
-|---|---|
-| [index.html](./index.html) | Welcome and synthesis: the headline question, the short answer, the sports findings, the portability spectrum |
-| [business-research.html](./business-research.html) | Source-by-source treatment of the seven cited sources |
-| [audit.html](./audit.html) | Honest self-audit: what this piece can and cannot claim, where the analogy weakens |
-| [implications.html](./implications.html) | Translation to HR, compensation design, and executive decision making |
-| [citations.html](./citations.html) | Full bibliography with working links and review notes |
-| [METHODS.md](./METHODS.md) | Full methodology and source evaluation protocol |
+| --- | --- |
+| `index.html` | Welcome. Headline question, short Yes/No answer, framing, and navigation. |
+| `key-findings.html` | Plain-language summary of the four TMG sports studies and the business research synthesis. |
+| `business-research.html` | Source-by-source treatment of each cited source. |
+| `implications.html` | Translation to hiring, managing stars, and structuring work. |
+| `citations.html` | Full bibliography with working links and review notes. |
+| `audit.html` | Honest self-audit. What the piece can and cannot claim. Interactive verification feature where readers can check claims and submit GitHub Issues. |
 
----
+## Primary sources
 
-## Citation annex
+Six peer-reviewed academic sources frame the synthesis:
 
-See [citations.html](./citations.html) for full bibliography. Primary sources:
+- Groysberg, B. (2010). *Chasing Stars: The Myth of Talent and the Portability of Performance.* Princeton University Press.
+- Bidwell, M. (2011). Paying more to get less: The effects of external hiring versus internal mobility. *Administrative Science Quarterly,* 56(3), 369-407.
+- Roll, R. (1986). The hubris hypothesis of corporate takeovers. *Journal of Business,* 59(2), 197-216.
+- Boivie, S., Gee, I. H., Gentry, R. J., and Graffin, S. D. (2025). Do boards learn to hire? The effect of board experience with CEO replacement on CEO performance. *Strategic Management Journal,* 46(10), 2467-2491.
+- Berry-Stolzle, T. R. and Eckles, D. L. (2019). It is about building a book of business: Incentives of insurance salespersons from future renewals. *Geneva Papers on Risk and Insurance,* 44(4), 702-731.
+- Gurun, U. G., Stoffman, N., and Yonker, S. E. (2021). Unlocking clients: The importance of relationships in the financial advisory industry. *Journal of Financial Economics,* 141(3).
 
-1. Groysberg, B., Lee, L.-E., and Nanda, A. (2008). Superstar extinction. *American Economic Review*, 98(3).
-2. Berk, J. B. and Green, R. C. (2004). Mutual fund flows and performance in rational markets. *Journal of Finance*, 59(3).
-3. Hoisl, K. and Mariani, M. (2017). Human capital portability and individual performance. *Strategic Management Journal*, 38(12).
-4. Lazear, E. P. and Rosen, S. (1981). Rank-order tournaments as optimum labor contracts. *Journal of Political Economy*, 89(5).
-5. Lucifora, C. and Simmons, R. (2003). Superstar effects in sport. *Journal of Labor Economics*, 21(2).
-6. Topel, R. (1991). Specific capital, mobility, and wages. *Journal of Political Economy*, 99(1).
-7. Cerulli Associates (2022). *U.S. Advisor Metrics*. Industry research.
+One industry research source provides practitioner-side data:
 
----
+- Cerulli Associates (2021, 2025). Research on financial advisor transitions.
 
-## License
+One peer-reviewed footnote citation:
 
-Research content is provided for informational purposes. See repository for full terms.
+- Bertrand, M. and Mullainathan, S. (2001). Are CEOs rewarded for luck? The ones without principals are. *Quarterly Journal of Economics,* 116(3), 901-932.
 
-## Contact
+See `citations.html` for the full annex with links, review process notes, and verification status for each source.
 
-[The Mallory Group](https://github.com/rmallorybpc) &nbsp;·&nbsp; Research inquiries via GitHub Issues.
+## Audit standard and reader verification
+
+The Mallory Group audits its own work as a standard. This site extends that standard to the reader.
+
+The audit page documents what the synthesis can and cannot claim, and includes a "Verify the claims yourself" section where readers can:
+
+- Tick a checkbox on each of five load-bearing claims after verifying it against the source. Progress saves in browser localStorage.
+- Submit a GitHub Issue if they find an error or concern. Issues are tagged with either `audit-feedback` (for the five claim-specific checks) or `feedback` (for general issues).
+- See open issues displayed on the audit page in real time via the GitHub Issues API.
+
+The corrections record on the audit page documents what the pre-publication audit caught and what was changed.
