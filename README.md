@@ -63,3 +63,26 @@ The audit page documents what the synthesis can and cannot claim, and includes a
 - See open issues displayed on the audit page in real time via the GitHub Issues API.
 
 The corrections record on the audit page documents what the pre-publication audit caught and what was changed.
+
+## Repository architecture
+
+Page content lives in markdown drafts under `/drafts/`. Rendered HTML pages live at the repo root. Visual styling and interactive behavior are in `/assets/`. To update content, edit the markdown source and regenerate the corresponding HTML page.
+
+The interactive audit feature is in `/assets/js/audit.js`. The specification for that feature is documented in `audit-feature-spec.md` at the repo root.
+
+## TMG behavioral economics research series
+
+This site is the synthesis installment in The Mallory Group's behavioral economics research series. The underlying sports research projects are:
+
+- [NHL Free Agency Research](https://rmallorybpc.github.io/nhl-free-agency-research/welcome.html)
+- [NBA Analysis](https://rmallorybpc.github.io/nba-research-project/)
+- [NFL Analysis](https://rmallorybpc.github.io/nflanalysis/dashboard/src/)
+- [NHL Play for Contract](https://rmallorybpc.github.io/nhl-play-for-contract/)
+
+## License
+
+Research content is provided for informational purposes. See repository for full terms.
+
+## Contact
+
+The Mallory Group. Research inquiries and feedback via GitHub Issues.
