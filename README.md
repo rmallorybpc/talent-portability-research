@@ -2,10 +2,6 @@
 
 **Does paying for talent work?**
 
-A synthesis research site by The Mallory Group.
-
-Live site: [rmallorybpc.github.io/talent-portability-research](https://rmallorybpc.github.io/talent-portability-research)
-
 ## Summary
 
 Yes. When the value-creating asset is portable, it transfers with the person.
@@ -13,6 +9,8 @@ Yes. When the value-creating asset is portable, it transfers with the person.
 No. When the value-creating asset is not portable, paying a premium for outside talent rarely delivers the expected return.
 
 This site connects four TMG sports research projects (NHL Free Agency Research, NFL Analysis, NBA Analysis, and NHL Play for Contract) to seven sources from the business and economics literature. The buyer side of the talent market consistently overpays, the conditions under which paying for outside talent works are narrow and identifiable, and the convergence of sports data and business research is the synthesis the site offers.
+
+Live site: [rmallorybpc.github.io/talent-portability-research](https://rmallorybpc.github.io/talent-portability-research)
 
 ## Methodology note
 
